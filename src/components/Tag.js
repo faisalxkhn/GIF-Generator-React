@@ -14,10 +14,10 @@ const Tag = () => {
 
 
   return (
-    <div className='w-1/2  bg-blue-800 rounded-lg border border-black
+    <div className='w-1/2  bg-blue-300 rounded-lg border border-black
     flex flex-col items-center gap-y-5 mt-[15px]'>
 
-      <h1 className='mt-[15px] text-2xl underline uppercase font-bold'> Random {tag} Gif</h1>
+      <h1 className='mt-[15px] text-2xl underline text-blue-900 uppercase font-bold'> Random {tag} Gif</h1>
 
     {
         loading ? (<Spinner/>) : (<img src= {gif} width="450" />)
@@ -31,7 +31,7 @@ const Tag = () => {
       
 
       <button onClick={() => fetchData(tag)}
-      className="w-10/12 bg-yellow-500 text-lg py-2 rounded-lg mb-[20px]">
+      className="w-10/12 bg-blue-900 text-lg text-blue-200 py-2 rounded-lg mb-[20px]">
 
        Generate
 

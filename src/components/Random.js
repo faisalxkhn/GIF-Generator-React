@@ -14,10 +14,10 @@ const Random = () => {
 
 
   return (
-    <div className='w-1/2  bg-green-800 rounded-lg border border-black
+    <div className='w-1/2  bg-green-200 rounded-lg border border-black
     flex flex-col items-center gap-y-5 mt-[15px]'>
 
-      <h1 className='mt-[15px] text-2xl underline uppercase font-bold'> A Random Gif</h1>
+      <h1 className='mt-[15px] text-2xl text-green-900 underline uppercase font-bold'> A Random Gif</h1>
 
     {
         loading ? (<Spinner/>) : (<img src= {gif} width="450" />)
@@ -26,7 +26,7 @@ const Random = () => {
       
 
       <button onClick={() => fetchData()}
-      className="w-10/12 bg-yellow-500 text-lg py-2 rounded-lg mb-[20px]">
+      className="w-10/12 bg-green-800 text-lg text-green-200 py-2 rounded-lg mb-[20px]">
 
        Generate
 

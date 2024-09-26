@@ -4,10 +4,10 @@
 
 
 .background {
-  background-image: radial-gradient(#ffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+ 
   background-size: 36px 36px;
   background-position: 0 0, 18px 18px;
-  background-color: #2d3748;
+  background-color: #2e3744;
 }
 
 
