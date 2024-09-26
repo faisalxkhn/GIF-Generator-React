@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GIF-Generator-React/static/css/main.668b3793.css",
+    "main.js": "/GIF-Generator-React/static/js/main.2ae36f0e.js",
+    "index.html": "/GIF-Generator-React/index.html",
+    "main.668b3793.css.map": "/GIF-Generator-React/static/css/main.668b3793.css.map",
+    "main.2ae36f0e.js.map": "/GIF-Generator-React/static/js/main.2ae36f0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.668b3793.css",
+    "static/js/main.2ae36f0e.js"
+  ]
+}
